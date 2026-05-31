@@ -1,8 +1,22 @@
 #include <iostream>
-int main(){
-    std::cout << "I woke up to write some code" <<'\n';
-    std::cout << "Or rather I couldn't sleep and thought...";
-    std::cout << "it was wise to write something that i learned the previous day";
+int main() {
+    using std::cout;
+    using std::string;
 
-return 0;
+    string name;
+    int age;
+
+    cout << "What is your name: ";
+    std::getline(std::cin, name );
+
+    cout << "How old are you: ";
+    std::cin >> age;
+
+    cout << "Hello " << name << ", welcome to my world. Even though it's in theory for now. You are " << age << " years old. Now let's get this wedding started." << '\n';
+
+    
+
+
+
+    return 0;
 }
