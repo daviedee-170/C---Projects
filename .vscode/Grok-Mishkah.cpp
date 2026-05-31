@@ -81,8 +81,8 @@ int main() {
     Schedule mySchedule;
 
     // Initial romantic tasks
-    mySchedule.addTask("Meet Mitchel Maritim (Bring Dairyland Mint Choc)", "11:30");
-    mySchedule.addTask("Maritim's Echoes of Glory auditions", "15:40");
+    mySchedule.addTask("(Bring Dairyland Mint Choc) its Maritim's favorite.", "11:30");
+    mySchedule.addTask("Meet Mitchel Maritim at the Echoes of Glory auditions", "15:40");
 
     int choice;
     do {
